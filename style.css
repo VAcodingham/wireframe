@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #9b7daa;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #452c50;
+    color: white;
+    height: 85px;
+    line-height: 90px;
+}
+#profile{
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+#social {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+    
+}
+
+#social li a img{
+    border-radius: 150px;
+    width: 40px;
+    padding: 15px;
+}
+#projects {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#projects .trio li a img{
+    display: inline-block;
+    height: 50px;
+    list-style-type: none;
+}
+#projects .trio h2 {
+    font-size: 35px;
+    color: white;
+    
+}
+#projects .trio img {
+    height: 200px;
+    
+}
+#projects .trio picture {
+    width: 200px;
+    display: inline-block;
+
+}
+
+#projects .trio li{
+    list-style: none;
+    display: inline-block;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+    
+}
+footer span{
+    color: white;
+    margin-right: 20px;
+}
+
+
+
+
